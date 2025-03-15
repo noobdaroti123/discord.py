@@ -5,8 +5,8 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 # Aternos credentials (log in manually at least once to avoid CAPTCHA)
-ATERNOS_EMAIL = 'your_email@example.com'
-ATERNOS_PASSWORD = 'your_password'
+ATERNOS_EMAIL = 'freeandastyler@gmail.com'
+ATERNOS_PASSWORD = 'lifestealserver@gonnabehard'
 
 # Set up the bot
 intents = discord.Intents.default()
@@ -28,7 +28,7 @@ def start_aternos_server():
 
     sleep(5)  # Wait for login to complete
 
-    driver.get('https://aternos.org/servers/')  # Replace with your server's URL
+    driver.get('https://aternos.org/server/LifesStealsSmp.aternos.me')  # Replace with your server's URL
     sleep(5)
 
     start_button = driver.find_element(By.XPATH, '//*[text()="Start"]')  # Adjust XPath if needed
@@ -60,4 +60,4 @@ async def on_ready():
         sleep(60)  # Check every minute
 
 # Run the bot
-bot.run('your_discord_bot_token')
+bot.run('')
