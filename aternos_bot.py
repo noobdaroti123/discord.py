@@ -60,4 +60,4 @@ async def on_ready():
         sleep(60)  # Check every minute
 
 # Run the bot
-bot.run('')
+bot.run('MTM1MDQxNDcwNzM3MDEwMjgzNw.GdxYpb.sWkuxzeqraFSR1hHBglD1IzoGM0BwgziuQeoOU')
